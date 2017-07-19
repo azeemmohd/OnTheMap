@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F10157B1F1F96AC00265911 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10157A1F1F96AC00265911 /* LoginViewController.swift */; };
+		9F1015801F1F98FC00265911 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F10157D1F1F98FC00265911 /* Roboto-Medium.ttf */; };
+		9F1015811F1F98FC00265911 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F10157E1F1F98FC00265911 /* Roboto-Regular.ttf */; };
+		9F1015821F1F98FC00265911 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9F10157F1F1F98FC00265911 /* Roboto-Thin.ttf */; };
+		9F1015841F1FAA8400265911 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1015831F1FAA8400265911 /* BorderedButton.swift */; };
 		9F6CCEB01F1F82550013C737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6CCEAF1F1F82550013C737 /* AppDelegate.swift */; };
-		9F6CCEB21F1F82550013C737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6CCEB11F1F82550013C737 /* ViewController.swift */; };
 		9F6CCEB51F1F82550013C737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6CCEB31F1F82550013C737 /* Main.storyboard */; };
 		9F6CCEB71F1F82550013C737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F6CCEB61F1F82550013C737 /* Assets.xcassets */; };
 		9F6CCEBA1F1F82550013C737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6CCEB81F1F82550013C737 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F10157A1F1F96AC00265911 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9F10157D1F1F98FC00265911 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		9F10157E1F1F98FC00265911 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		9F10157F1F1F98FC00265911 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		9F1015831F1FAA8400265911 /* BorderedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		9F6CCEAC1F1F82550013C737 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6CCEAF1F1F82550013C737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F6CCEB11F1F82550013C737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F6CCEB41F1F82550013C737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F6CCEB61F1F82550013C737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F6CCEB91F1F82550013C737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1015761F1F925100265911 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F1015791F1F968F00265911 /* Clients */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F1015771F1F925F00265911 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F1015831F1FAA8400265911 /* BorderedButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F1015781F1F927200265911 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9F1015791F1F968F00265911 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				9F10157A1F1F96AC00265911 /* LoginViewController.swift */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
+		9F10157C1F1F98BA00265911 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9F10157D1F1F98FC00265911 /* Roboto-Medium.ttf */,
+				9F10157E1F1F98FC00265911 /* Roboto-Regular.ttf */,
+				9F10157F1F1F98FC00265911 /* Roboto-Thin.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		9F6CCEA31F1F82550013C737 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +103,11 @@
 		9F6CCEAE1F1F82550013C737 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
+				9F10157C1F1F98BA00265911 /* Fonts */,
+				9F1015781F1F927200265911 /* Controllers */,
+				9F1015771F1F925F00265911 /* View */,
+				9F1015761F1F925100265911 /* Model */,
 				9F6CCEAF1F1F82550013C737 /* AppDelegate.swift */,
-				9F6CCEB11F1F82550013C737 /* ViewController.swift */,
 				9F6CCEB31F1F82550013C737 /* Main.storyboard */,
 				9F6CCEB61F1F82550013C737 /* Assets.xcassets */,
 				9F6CCEB81F1F82550013C737 /* LaunchScreen.storyboard */,
@@ -123,7 +175,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1015801F1F98FC00265911 /* Roboto-Medium.ttf in Resources */,
 				9F6CCEBA1F1F82550013C737 /* LaunchScreen.storyboard in Resources */,
+				9F1015821F1F98FC00265911 /* Roboto-Thin.ttf in Resources */,
+				9F1015811F1F98FC00265911 /* Roboto-Regular.ttf in Resources */,
 				9F6CCEB71F1F82550013C737 /* Assets.xcassets in Resources */,
 				9F6CCEB51F1F82550013C737 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +191,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6CCEB21F1F82550013C737 /* ViewController.swift in Sources */,
+				9F10157B1F1F96AC00265911 /* LoginViewController.swift in Sources */,
 				9F6CCEB01F1F82550013C737 /* AppDelegate.swift in Sources */,
+				9F1015841F1FAA8400265911 /* BorderedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +355,7 @@
 				9F6CCEC01F1F82550013C737 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
